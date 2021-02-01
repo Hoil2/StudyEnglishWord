@@ -1,0 +1,887 @@
+
+
+      토익 1000단어 정복 
+
+
+      
+
+  1 □ business 회사, 사업(체)
+  2 □ company 회사
+  3 □ firm 회사
+  4 □ organization 회사, 조직
+  5 □ (in) corporation (주식)회사
+  6 □ manufacturer 제조업체
+  7 □ venture 모험기업
+  8 □ employer 고용주
+  9 □ employee 고용인, 직원
+ 10 □ staff (집합적) 직원
+ 11 □ work force 인력, 직원
+ 12 □ personnel 직원, 인사(의)
+ 13 □ crew 직원, 승무원
+ 14 □ management 경영(진)
+ 15 □ union 노조
+ 16 □ customer 고객
+ 17 □ client 고객, 의뢰인
+ 18 □ account 고객회사, 계정, 계좌
+ 19 □ apply for 지원하다
+ 20 □ application 지원(서)
+ 21 □ fill out a form 양식에 기재하다
+ 22 □ investment 투자
+ 23 □ profit 이익
+ 24 □ return 이윤
+ 25 □ revenue 이익, 수익
+ 26 □ loss 손실
+ 27 □ income 수입, 소득
+ 28 □ expenditure 지출
+ 29 □ budget 예산
+ 30 □ surplus 잉여
+ 31 □ deficit 적자
+ 32 □ fiscal year 회계연도
+ 33 □ currency 통화, 화폐
+ 34 □ circulation 유통
+ 35 □ distribution 유통, 배급
+ 36 □ a member of board 이사
+ 37 □ committee 이사
+ 38 □ trustee 이사, 위원
+ 39 □ controller 감사
+ 40 □ comptroller 감사
+ 41 □ auditor 감사원
+ 42 □ wholesale 도매
+ 43 □ retail 소매
+ 44 □ sign a contract 계약 체결하다
+ 45 □ agreement 계약(서)
+ 46 □ production 생산(부서)
+ 47 □ product 제품
+ 48 □ sale(s) 판매, 매출, 할인판매
+ 49 □ marketing 마케팅(부서)
+ 50 □ promotion 광고, 승진
+ 51 □ strategy 전략
+ 52 □ competitor 경쟁사
+ 53 □ competition 경쟁, 대회(=contest)
+ 54 □ leading company 일류회사
+ 55 □ order 주문(품)
+ 56 □ place an order 주문하다
+ 57 □ ship out 배송하다
+ 58 □ shipment 선적, 선적품
+ 59 □ courier (service) 택배회사
+ 60 □ backorder 이월 주문(품)
+ 61 □ stock 재고(상품)
+ 62 □ inventory 재고(목록)
+ 63 □ out of stock 재고가 떨어지다
+ 64 □ store (상품)쌓아놓다
+ 65 □ stack       "
+ 66 □ warehouse 창고, 물류센타
+ 67 □ rack 선반
+ 68 □ shelf  "
+ 69 □ file 서류(철), 서류철하다
+ 70 □ pile 쌓다, 서류더미
+ 71 □ binder 서류철
+ 72 □ drawer 서랍
+ 73 □ invoice 송장(상업용편지)
+ 74 □ a letter of credit 신용장
+ 75 □ a bill of landing 선하증권
+ 76 □ airbill 항공화물증권
+ 77 □ resume 이력서, 재개하다
+ 78 □ a letter of recommendation 추천장
+
+
+ 79 □ reference 추천서,언급,참고
+ 80 □ bill 지폐, 청구서, 서류, 법안
+ 81 □ payment 지불(방식)
+ 82 □ cash 현금(으로 바꾸다)
+ 83 □ a credit card 신용 카드
+ 84 □ check 수표
+ 85 □ money order 우편환
+ 86 □ business card 명함
+ 87 □ negotiation 협상
+ 88 □ negotiator 협상당사자
+ 89 □ consultant 고문
+ 90 □ consulting firm 컨설팅사
+ 91 □ market research 시장조사
+ 92 □ study 조사, 연구
+ 93 □ survey 조사, 연구
+ 94 □ investigation 조사, 수사
+ 95 □ investigator 연구원, 수사관
+ 96 □ unemployment rate 실업률
+ 97 □ interest rate 이자율
+ 98 □ rates (공공)요금, 비율, 속도
+ 99 □ fare (교통)요금
+100 □ fee (수업)료 등
+101 □ expenses 경비
+102 □ charge 요금
+103 □ extra charge 추가요금
+104 □ surcharge       "
+105 □ fine 벌금
+106 □ tax 세금
+107 □ toll 통행료
+108 □ rent 집세, 임대하다
+109 □ lease 임대(료), 임대하다
+110 □ rental company 임대회사
+111 □ stock 증권
+112 □ bond 채권
+113 □ consumption 소비
+114 □ consumer 소비자
+115 □ CPI(Consumer Price Index) 소비자물가 지수
+116 □ supply vs. demand 공급/소비
+117 □ supplier 공급업체
+118 □ office supplies 사무용품
+119 □ consumer's goods 소비재
+120 □ durable goods 내구재
+121 □ export vs. import 수출/수입
+122 □ export director 수출입업무담당자
+123 □ stock vs. bond 증권/채권
+124 □ domestic market 국내시장
+125 □ global market 국제시장
+126 □ catalog(ue) 카탈로그, 안내책자
+127 □ brochure       "
+128 □ pamphlet       "
+129 □ literature       "
+130 □ manual 제품사용설명서
+131 □ instructions   "
+132 □ amount 소계, 합계, 돈(금액)
+133 □ sum 총계, 합계
+134 □ gross (income) 세전 총(소득)
+135 □ net (income) 세후 순(소득)
+136 □ productivity 생산성
+137 □ profitability 효율성
+138 □ load 짐(싣다)
+139 □ unload 짐(내리다)
+140 □ applicant 지원자
+141 □ candidate   "
+142 □ qualifications 자격요건
+143 □ quality (품)질, 자질
+144 □ quantity 양
+145 □ R&D(Research&development) 연구개발
+146 □ financing 금융, 재정확보
+147 □ fund 기금
+148 □ fund raising 기금 모금
+149 □ get a raise 임금 인상을 받다
+150 □ inflation 통화팽창
+151 □ deflation 통화수축
+152 □ boom 호경기
+153 □ regression 불경기
+154 □ depression   "
+155 □ revaluation (환율)평가절상
+156 □ devaluation      "   절하
+157 □ evaluate 평가하다
+158 □ estimate 견적서, 견적내다
+159 □ import decontrol 수입자유화
+160 □ direct marketing 직접 홍보
+161 □ D.M(direct mail) 고객에게발송하는우련물
+162 □ (TV) commercials 방송 광고
+163 □ help wanted ad 구인 광고
+164 □ run an ad 광고를 싣다
+165 □ state-of-the-art 최신의(제품)
+166 □ front-line 최첨단
+
+
+167 □ CEO(Chief Executive Officer) 최고경영자
+168 □ FEO(Financial Executive Officier) 재정최고책임자
+169 □ executive 간부, 중역, 이사
+170 □ division director 부문장
+171 □ director(head) of operation 사업본부장
+172 □ task force 신규사업부
+173 □ manager 과장, 지배인, 경영자
+174 □ supervisor 상관, 감독관
+175 □ assistant 조수, 부～, 대리
+176 □ secretary 비서, 국장
+177 □ treasurer 재무담당관
+178 □ accountant 회계사, 회계과직원
+179 □ book keeper 경리
+180 □ keep a book 장부를 정리하다
+181 □ clerk 직원
+182 □ representative 직원,대리점(주)
+183 □ book 예약하다
+184 □ fully booked 빈방(테이블)없음
+185 □ make a reservation 예약하다
+186 □ reserved 예약석, ～전용의
+187 □ vacancy 빈방
+188 □ occupied 사용중
+189 □ double occupancy 이인일실
+190 □ (business) trip 출장
+191 □ out of the town 출장중
+192 □ out sick 병가
+193 □ take a sick leave 병가를 내다
+194 □ maternity leave 출산 휴가
+195 □ take a vacation 휴가 가다
+196 □ available 사용할수있는
+197 □ on line 통화중
+198 □ hold on 통화 대기
+199 □ hang up (전화) 끊다
+200 □ in absence 부재중, 장기휴직
+201 □ present 현재의,출석한,선물
+202 □ presentation 발표
+203 □ represent(ive) 대표하다,(직원)
+204 □ consumer service 고객센타
+205 □ congress man 국회의원
+206 □ House 하원
+207 □ senator 상원의원
+208 □ health-care 건강보험
+209 □ dental-care 치과치료
+210 □ make an appointment 예약
+211 □ reschedule 예약 변경
+212 □ behind schedule 일이늦어지다
+213 □ (final) draft 초안, (최종본)
+214 □ proposal 기안, 제안서(=offer)
+215 □ prepare draft 초안을작성하다
+216 □ file a (law)suit 소송을제기하다
+217 □ driveway 진입로
+218 □ ride 차편
+219 □ board 탑승하다, 이사회
+220 □ boarding 탑승, 숙박
+221 □ liner 정기여객선
+222 □ cruise (ship, boat) 유람선
+223 □ managerial strategies 경영전략
+224 □ merger 합병
+225 □ renovation(건물의)현대화,경영쇄신
+226 □ redecoration 사무실내변경
+227 □ banquet 파티, 연회
+228 □ employee of the year 올해의직원
+229 □ found 설립하다
+230 □ foundation 재단, 설립, 기초
+231 □ institution 기관
+232 □ institute 연구소
+233 □ association 협회
+234 □ instrument 도구, 악기
+235 □ equipment 장비
+236 □ real estate 부동산
+237 □ architecture 건축물
+238 □ architect 건축가
+239 □ illustration 삽화
+240 □ illustrator 삽화작가
+241 □ portfolio 서류철, 분산투자
+242 □ salary requirement 희망연봉
+243 □ power 전기, 전력
+244 □ power station 발전소
+245 □ blackout 정전
+246 □ stationery 문구류, 문방용품
+247 □ (weather) forecast 기상 예보
+248 □ inclement weather 악천후
+249 □ delay 연기, 연착
+250 □ customs 세관
+251 □ immigration office 출입국사무소
+252 □ check in luggage 화물수속
+253 □ receipt 영수(증)
+254 □ recipe 조리법
+
+
+255 □ salary history 이전연봉내력
+256 □ contractor 하청업체
+257 □ (open) bid (공개) 입찰
+258 □ transfer 전근가다, 전환하다 
+259 □ translate 번역, 통역하다
+260 □ transport(ations) 운송하다(운송)
+261 □ vehicle 탈 것, 교통수단
+262 □ transmit 전송하다
+263 □ transact(ion) 거래하다,(거래)
+264 □ transplant 장기이식(수술)
+265 □ operation 경영,작동,수술
+266 □ surgeon 외과의사
+267 □ physician 내과의사
+268 □ dentist 치과의사
+269 □ psychologist 심리학자,정신과의사
+270 □ psychiatrist 정신과의사
+271 □ pediatrician 소아과의사
+272 □ veterinarian 수의사
+273 □ function 기능(하다)
+274 □ performance 직무수행,공연
+275 □ conduct 관리,경영하다
+276 □ conductor 경영자,지휘자,차장
+277 □ colleague 동료
+278 □ co-worker  "
+279 □ quality(credit) requirements 자격(신용)조건
+280 □ tenant 세입자
+281 □ accomodations 숙박,숙박시설
+282 □ avail oneself of 이용하다
+283 □ intern수습사원  internship실습훈련기간
+284 □ temporary (worker) 임시직사원
+285 □ apprentice 도제, 견습생
+286 □ ceremony 행사, 의식
+287 □ celebration    "
+288 □ event         "
+289 □ occasion 행사, 의식
+290 □ formulate공식화하다,고안하다
+291 □ administration 행정, 관리
+292 □ motivate 동기부여하다
+293 □ productivity 생산성
+294 □ proficiency 효율성
+295 □ proficient 일 잘하는
+296 □ competitive edge 경쟁력 
+297 □ regard A as B A를B로 여기다
+298 □ reward A with B A에게B로보상하다(상주다)
+299 □ provide A with B A에게 B를 제공하다
+300 □ supply 공급하다
+301 □ furnish 공급하다
+302 □ present 주다, 선사, 제공하다
+303 □ gift 부여하다
+304 □ endow 수여하다
+305 □ fill 채우다
+306 □ maintain 유지, 관리, 보수하다
+307 □ maintenance 유지,관리,보수(과)
+308 □ prohibit 금지하다
+309 □ inhibit 금지하다
+310 □ profess 자백, 공언, 주장하다
+311 □ proclaim 선언, 공표하다
+312 □ declare 선언하다
+313 □ take A for granted A를 당연히 여기다
+314 □ associates 동료,협회(=society)
+315 □ league 연맹
+316 □ explicit 명백한
+317 □ evident 명백한 (=obvious)
+318 □ clear 명백한 (=apparent)
+319 □ discrepant 모순된, 상반된
+320 □ federal aid 연방 구호
+321 □ emergency relief 비상 원조
+322 □ must 반드시 해야할 일
+323 □ suited for～ ～에 적합한
+324 □ serve 역할을하다, 봉사, 제공하다
+325 □ accompany 동반하다
+326 □ in accordance with ～에 따라
+327 □ specifications 세부설명서 등
+328 □ be engaged in ～에 종사하다
+329 □ be engaged to ～와 약혼하다
+330 □ pressing supplies 긴급품
+331 □ pollutant 오염물질
+332 □ deck 갑판
+333 □ dock 부두
+334 □ desert 사막, 저버리다, 황폐케하다
+335 □ dessert 후식
+336 □ approve 승인하다, 결재하다
+337 □ approval code 승인 번호
+338 □ access number (정보)접근번호
+339 □ deposit (예금) 입금하다
+340 □ savings account 예금 계좌
+341 □ checking account 출금 계좌
+342 □ run an ad 광고를 게재하다
+
+
+343 □ help wanted ad 구인 광고
+344 □ classifieds (신문) 광고란
+345 □ short 부족한
+346 □ run out of 다 떨어지다
+347 □ due back 반환 기한
+348 □ be due to～ ～할 예정이다
+349 □ due 회비
+350 □ vaccination 예방 접종
+351 □ take steps(measures)조치를 취하다
+352 □ disconnect (전화써비스) 끊다
+353 □ meet the deadline 마감기간을 맞추다
+354 □ suite 적합하게하다, 양복
+355 □ water fountain 식수대
+356 □ urgent 긴급한, 급박한
+357 □ emergent 긴급한
+358 □ support 지탱, 지지, 부양하다
+359 □ sponsor 후원하다, 후원자
+360 □ set an example 모범이 되다
+361 □ preserve 보존, 보호하다
+362 □ conserve 보호, 보존하다
+363 □ reserve 예약하다
+364 □ deserve ～할 가치가 있다
+365 □ source 원천, 근원
+366 □ resources 자원
+367 □ sculpture 조각품 sculptor조각가
+368 □ devise 고안하다
+369 □ device 고안품, 장치, 기계
+370 □ execute 실행, 처형하다
+371 □ carry out 실행하다
+372 □ practice 실행하다
+373 □ exercise 실행하다, 연습, 운동
+374 □ perform 공연하다
+375 □ fulfill 수행하다, 완성하다
+376 □ performance 수행, 공연
+377 □ performer 공연자
+378 □ accomplish 달성, 성취하다
+379 □ achieve 달성, 성취, 이루다
+380 □ accomplishment 업적
+381 □ achievement 업적, 달성, 성취
+382 □ exposure 노출, (필름) 장
+383 □ feature 특징(으로 하다)
+384 □ clarification 해명서
+385 □ include 포함하다
+386 □ exclude 배제하다 tax excluded세금제외한금액
+387 □ involve 포함하다, 관련되다
+388 □ contain 담다
+389 □ container 용기, 그릇, 컨테이너
+390 □ storage 저장
+391 □ retrieval 검색
+392 □ responsibility 책임
+393 □ duty 책임, 의무 task 임무
+394 □ right 권리
+395 □ memorandum 메모, 회람
+396 □ review 검토(하다) (=look over)
+397 □ reviews (신문) 연극,영화평 등
+398 □ credit terms 신용 공여 조건
+399 □ credit requirements   "
+400 □ collection 대금징수, (공항)짐찾기
+401 □ collection period 대금회수기간
+402 □ collect money 모금하다
+403 □ raise money 모금하다
+404 □ funding 출자
+405 □ financing 자금 공급
+406 □ administrator 행정(담당)관
+407 □ collapse 붕괴하다
+408 □ go bankrupt 파신히다(=go out of business)
+409 □ bankruptcy 파산
+410 □ falter 비틀거리다
+411 □ tighten up 강화하다
+412 □ strengthen 강화하다
+413 □ reinforce 강화하다
+414 □ reimburse (출장비)환불,정산하다
+415 □ get reimbursement 정산받다
+416 □ rebate 이익배당 (=share,discount)
+417 □ customer rebate program고객이익배당정책
+418 □ preventative measure예방조치
+419 □ take measures 조치를 취하다
+420 □ take steps  조치를 취하다
+421 □ work out a program프로그램을 운영하다
+422 □ file a report(lawsuit)보고서(소송)제출하다
+423 □ suit 적합하게 맞추다(=fit)
+424 □ fitness center 헬스클럽
+425 □ be in shape 건강유지하다(=stay healthy)
+426 □ sound nutrition 건강영양공급
+427 □ exercise 운동, 연습, 실행하다
+428 □ environmentally friendly환경친화적인
+429 □ harvest (=crop, yield) 수확
+430 □ harsh 혹독한, 추운
+
+
+431 □ celebrity 유명인사 celebrate기념하다
+432 □ achieve recognition 널리 인정받다
+433 □ officially accredited 공식적으로인정된
+434 □ multinational corporation 다국적기업
+435 □ embassy 대사관
+436 □ commercial heart 중심상업지구
+437 □ industrial complex 산업단지
+438 □ taxpayer 납세자
+439 □ identification 신원확인
+440 □ identification card 신분증
+441 □ overdue taxes 미납 세금
+442 □ (monthly) installment 할부,월부금
+443 □ mortgage (loan) 담보장기(대출)*
+444 □ accrue (이익)생기다, (이자) 붙다
+445 □ penalty 형벌, 벌금(=fine)
+446 □ satellite communications
+447 □ enhance 증가, 향상시키다
+448 □ account 계좌,고객회사,설명,이유
+449 □ syndicated loan 연합출자대출
+450 □ carry-on luggage (bag) 탑승수화물
+451 □ free baggage allowance무료수화물허용중량
+452 □ availability 가용성,유익성,쓸모,도움
+453 □ compartment 비행기 기내 짐칸
+454 □ identifying label 신원파악용 딱지
+455 □ security personnel(guard) 안전 요원
+456 □ payment terms 지불 조건
+457 □ be subject to～ ～에종속되다
+458 □ credit approval 신용 승인
+459 □ billing address/department 청구주소 등
+460 □ trust 신탁, 위탁
+461 □ trustee 이사, 위원
+462 □ committee 이사(회)
+463 □ director(member) of the board 이사
+464 □ asset 재산 (=property)
+465 □ company contribution 회사 분담금
+466 □ employ contribution 직원 분담금
+467 □ liability to pensioner 연금수령자에게 지불되는 회사분담금
+468 □ pension 연금
+469 □ retiree 은퇴자, 퇴직자
+470 □ reserve for pension 연기금 (조성)
+471 □ sales figures 매출 금액
+472 □ sales force영업사원 workforce직원
+473 □ troubleshoot 고장 처리
+474 □ dispatch 배송, 발송, 급송
+475 □ assemblies 조립품
+476 □ assembly line 조립생산라인
+477 □ electric components전자부품
+478 □ low income community저소득층
+479 □ upscale section 고소득층지역
+480 □ consist of～ ～로 구성되다
+481 □ mobility 기동성
+482 □ ease congestion (혼잡)완화하다
+483 □ traffic jam(congestion)교통혼잡
+484 □ afford to～ ～할 경제적여유가 있다
+485 □ access to～ ～에 접근하다
+486 □ back up (=support, sponsor)후원하다
+487 □ deposit 담보물, 저당금
+488 □ statement (카드)청구서, 진술
+489 □ staple 주요생산품
+490 □ stool 의자*part1에서등장하는소품(아래)
+491 □ trench 참호,깊은도랑(주로 공사장)
+492 □ stroller 유모차 (=baby carriage)
+493 □ trailer 운반용 수레(차)
+494 □ paddle 노젓다 (=row)
+495 □ striped 줄무늬의
+496 □ applaud 환호하다 ⓝapplause
+497 □ clapping 박수
+498 □ (club) due 회비
+499 □ due date 어음만기일,마감기한(=deadline)
+500 □ foreman 공사장 감독, 십장
+501 □ author 작가, 저자
+502 □ editor 편집자
+503 □ edition 판, 편집
+504 □ publisher출판사(=publishing company)
+505 □ naval office 해군 장교
+506 □ pharmacist 약사
+507 □ fill a prescription (약)조제하다
+508 □ prescribe처방하다ⓝprescription
+509 □ subscribe to구독신청하다ⓝsubscription
+510 □ describe묘사하다 ⓝdescription
+511 □ fill out a form 양식 작성하다
+512 □ chemist 화학자
+513 □ chemicals 화학물질
+514 □ fertilizer 비료
+515 □ petroleum 석유 
+516 □ gas station 주유소
+517 □ pump gas 주유하다
+518 □ pull up a car 차를노견에대다
+519 □ restricted area 제한구역
+520 □ fortune 큰돈(=a large amount of money)
+
+
+
+521 □ demonstration 제품시연회, 시위
+522 □ financial plan 재정 계획
+523 □ budgeting       " (예산 기획)
+524 □ be set aside 확보하다
+525 □ reserved        "
+526 □ reserve 유보금, 예약하다
+527 □ revised contract 수정 계약서
+528 □ edit 편집하다
+529 □ editor 편집자
+530 □ editorial (신문) 기사
+531 □ article 논문, 기사
+532 □ consider A, B A를 B로 여기다
+533 □ considerate 사려깊은
+534 □ considerable 상당한, 꽤많은
+535 □ fire 해고하다
+536 □ laid out 실직한
+537 □ unemployed 실직한
+538 □ out of work 실직한
+539 □ out of office 결근한
+540 □ out of town (주로) 출장간
+541 □ absence 장기 결근
+542 □ decline 감소하다
+543 □ decrease↔increase 감소,증가하다
+544 □ reduce 감소하다, 줄이다
+545 □ lessen 줄이다
+546 □ cut back 줄이다
+547 □ notify 통지하다
+548 □ notification 통지
+549 □ notice 통지, 게시(문)
+550 □ tin 주석, 양철
+551 □ invaluable 막대한 가치가 있는
+552 □ priceless 값으로 따질 수 없는553 □ elevate one's feet 승승장구하다
+554 □ charter a bus 버스를 대절하다
+555 □ standing room 입석
+556 □ release(=issue) 발행하다,내놓다
+557 □ cell(ular) phone 휴대폰
+558 □ It's gaining (주식 등)이익이 증가하다
+559 □ debate 논쟁 rebate
+560 □ high rise(=skyscraper)고층건물
+561 □ miscalculate 잘 못 계산하다
+562 □ recalculate 검산하다
+563 □ meet the quota 할당량을 채우다
+564 □ meet the demand 수요를 맞추다
+565 □ meet the deadline 마감시한을맞추다
+566 □ trigger(=cause) 야기,촉발하다
+567 □ alarm system 경보 장치
+568 □ in duplicate 두 통씩
+569 □ in triplicate 세 통씩
+570 □ be stuck in traffic 교통이막혀 꼼짝못하다
+571 □ large-print edition 큰활자판
+572 □ periodical 정기 간행물
+573 □ water front 해안(가)
+574 □ water fountain 음수대, 식수대
+575 □ waters 바다
+576 □ account for 설명하다,책임지다
+577 □ resident 거주자
+578 □ inhabitant 거주자
+579 □ dweller 거주자
+580 □ property tax 재산세
+581 □ income tax 소득세
+582 □ be eligible for ～의 자격이 있다
+583 □ be qualified for      " 
+584 □ qualifications  자격 요건
+585 □ renew 갱신하다
+586 □ patron 애용, 후원하다, 고객*
+587 □ portable 휴대용
+588 □ poultry 가금류(닭,오리,칠면조)
+589 □ pose a problem 문제를 야기하다
+590 □ food poisoning 식중독
+591 □ A cause B  A가 B를 야기하다
+592 □ A result in B       "
+593 □ A lead to B
+594 □ B result from A B가 A로부터 야기되다
+595 □ B be caused by A    "
+596 □ B stem from A       " 
+597 □ A play a role in B  A가B에있어 역할을하다
+598 □ attribute B to A B를 A에 기인시키다
+
+
+599 □ B depend on A B는 A에 달려있다
+600 □ B lie in A B는 A에 놓여있다
+601 □ chop (장작)패다, (음식)썰다
+602 □ slice 얇게 썰다
+603 □ dice 주사위(모양으로 썰다)
+604 □ exposure 노출, (필름)장수
+605 □ run 운영하다
+606 □ a bed and breakfast 하숙
+607 □ angler(=fisherman) 낚시꾼
+608 □ show off 뻐기다
+609 □ be guaranteed to～를보장하다
+610 □ Chamber of Commerce 상공회의소
+611 □ combined total 총 합계
+612 □ sum 합계 총액
+613 □ amount 합계, 양
+614 □ note 주목, 인지하다
+615 □ ventilate 통풍시키다
+616 □ outlaw 법으로 금하다, 무법자
+617 □ hostility 적의(감)
+618 □ boundary 경계(선)
+619 □ oil spill 석유 유출 사고
+620 □ get ～ straight ～를 정돈하다
+621 □ adapt 적용시키다 adapter 어텝터
+622 □ adopt 채택하다(=select)
+623 □ have effect on 영향을 미치다
+624 □ affect 영향을 미치다
+625 □ affection 애정, 영향
+626 □ influence 영향을 미치다
+627 □ compare transportation 교통편을 비교하다
+628 □ public transportation system 대중교통
+629 □ faulty 결함있는
+630 □ mechanic 기계공, 카센터 직원
+631 □ light 조명 (기구)
+632 □ illuminate 조명하다, 밝히다
+633 □ illustrate 예시하다
+634 □ illustration 예화
+635 □ impaired 손상된
+636 □ wounded 부상 입은
+637 □ injured       "
+638 □ harmed 해를 입은
+639 □ damaged 손상 당한
+640 □ poor vision 약한 시력
+641 □ procedure(s) 과정
+642 □ vegetable dips 야채액 dip 담그다
+643 □ fillings 부속품
+644 □ entrepreneur 기업가
+645 □ money market 금융 시장
+646 □ curriculum 교과 과정
+647 □ donation 기부(금), 기부물
+648 □ unit 기계 장치, 단위
+649 □ decision-maker 결정권자
+650 □ forbid-forbade-forbidden 금하다(=ban)
+651 □ board of director 이사회
+652 □ (board of) trustee 이사회
+653 □ committee 이사(회)
+654 □ take measures 조치를 취하다
+655 □ take steps           "
+656 □ take actions         "
+657 □ take a poll 투표하다
+658 □ take a vacation 휴가 가다
+659 □ take a sickleave 병가 내다
+660 □ take a maternity leave 출산휴가내다
+661 □ allow + O + to□ 문형 (중요!)
+662 □ cause 야기하다
+663 □ enable 가능케 하다
+664 □ urge 촉구하다
+665 □ encourage "
+666 □ force 강요하다
+667 □ compel   "
+668 □ ask 요구, 부탁하다
+669 □ substance 물질
+670 □ substantial(=practical) 실질적인
+671 □ make it clear that～ ～를 명확히 하다
+672 □ make it obvious that～  "
+673 □ resort 휴양지
+674 □ reflect 반영하다
+675 □ recollect 회상하다 collect징수하다
+676 □ locate ～에 두다, 위치시키다
+677 □ situate          "
+678 □ place           "
+679 □ lay-laid-laid 두다, 놓다, 낳다
+680 □ lie-lay-lain 놓여있다
+681 □ lie-lied-lied 거짓말하다
+682 □ rise-rose-risen 일어나다,떠오르다
+683 □ raise-raised-raised 들어올리다
+684 □ industrial 산업의
+685 □ industrious 근면한(=diligent)
+686 □ economic 경제의
+
+
+687 □ economical 경제적인, 싼
+688 □ postpone(=put off) 연기하다
+689 □ prohibit(=inhibit) 금하다
+690 □ hinder 방해하다
+691 □ empty빈 ↔occupied사용중인
+692 □ repair(=mend, fix) 수리하다
+693 □ inspection 조사
+694 □ examination "
+695 □ populous 사람이 많이 사는
+696 □ tolerate 참다, 관용하다
+697 □ endure 참다, 견디다
+698 □ be patient of 참다, 인내하다
+699 □ lawmaker 입법자, 국회의원
+700 □ session 회의, 회기
+701 □ symposium 토론회
+702 □ curator 미술(박물)관 관리자, 학예사
+703 □ benefits 복지 및 포상 제도
+704 □ cafeteria plan of benefits 선택적 포상복리제도
+705 □ undernourished 영양공급이 불충분한
+706 □ malnutrition 영양 실조
+707 □ undervalued 과소 평가된
+708 □ undercharged 요금을 덜 청구한
+709 □ underdeveloped 미개발된
+710 □ politely 예의바르게
+711 □ courteously 정중하게
+712 □ give priority 우선권을 주다
+713 □ punishment 처벌
+714 □ stir 휘젓다, 흥분
+715 □ deal with 처리하다(=treat)
+716 □ deal in 거래하다(=trade)
+717 □ deal 거래, 양
+718 □ a great deal of (양이) 많은
+719 □ a good number of (수) 많은
+720 □ dealer 도매업자
+721 □ revolve 회전하다
+722 □ evolve 진화, 발전하다
+723 □ evolution 진화, 발전
+724 □ conservative 보수적인
+725 □ progressive 진보적인
+726 □ logistical 물류 시스템
+727 □ diverse(=various) 다양한
+728 □ diversity(=variety) 다양성
+729 □ vary 다르다, 변화시키다
+730 □ agriculture 농업
+731 □ patent right 특허권
+732 □ stiff resistance 강력한 저항
+733 □ installment plan 할부 제도
+734 □ due to～ ～에 때문에
+735 □ owing to～     "
+736 □ thanks to～     "
+737 □ because of～     "
+738 □ on account of～   "
+739 □ on the ground of～ "
+740 □ because (절)       "
+741 □ since              "
+742 □ as                 "
+743 □ now that           "
+744 □ so 그래서, 따라서 (인과)
+745 □ therefore            "
+746 □ then                 "
+747 □ as a result           "
+748 □ as a consequence    "
+749 □ nearly all(=almost all) 거의 모든
+750 □ prior to～ ～전에(=before)
+751 □ public relations campaign 대고객기업이미지광고
+752 □ extend 확장시키다
+753 □ expand 성장, 팽창시키다
+754 □ explore 탐험하다 explore 탐험가
+755 □ explode 폭발하다
+756 □ explosion 폭발
+757 □ complimentary 무료 제공의
+758 □ aisle 복도
+759 □ aisle seat 복도쪽 좌석(비행기)
+760 □ hazard 위험
+761 □ cutting room (필름 등)편집실
+762 □ pallet (of lumber) 화물 운반대
+763 □ allocate 할당하다
+764 □ appoint 임명하다
+765 □ assure 확신시키다
+766 □ associate 결합시키다
+767 □ acknowledge 승인, 인정하다
+768 □ adjust 조절하다
+769 □ be accustomed to ～ing ～에 익숙해지다
+770 □ be used to ～ing    "
+771 □ look forward to ～ing ～를 학수고대하다
+772 □ blockage 장애, 방해물
+773 □ subsidiary 영수(증)
+774 □ domestic 국내의 ↔foreign, oversea
+
+
+775 □ water filtration device 정수장비
+776 □ hold customer accountable 고객에 책임을 돌리다
+777 □ to begin with 우선, 무엇보다
+778 □ publication 출판물
+779 □ track 선로, 추적하다
+780 □ sustainable(=continuous) 지속적인
+781 □ on the other hand 반면에
+782 □ on the contrary      "
+783 □ maximize 극대화하다
+784 □ minimize 극소화하다
+785 □ currency fluctuation 환율변동
+786 □ shifting exchange rates  "
+787 □ highlight 강조하다
+788 □ surgery 수술 (=operation)
+789 □ positive 긍정적인 ↔negative
+790 □ range of motion 활동 범위
+791 □ insurance company 보험사
+792 □ all-time low(high) 가장 낮은
+793 □ follow-up 뒤따르는 일
+794 □ flexibility 유연성
+795 □ statistics 통계(학), 통계자료
+796 □ heighten(≒enhence)향상시키다797 □ Pacific Rim(Basin) 태평양연안
+798 □ embrace 껴안다, 둘러싸다
+799 □ surround 둘러싸다
+800 □ surroundings 환경
+801 □ A consist of B A가B로구성되다
+802 □ A consist in B A는 B에달려있다
+803 □ A consist withB A와B가조화하다
+804 □ rubber 고무
+805 □ oil resources (=field) 석유자원 (유전)
+806 □ natural resources 천연 자원
+807 □ human resources 인력 자원
+808 □ Not enough can be said 말로 다 할 수 없다
+809 □ market potential 시장 잠재력
+810 □ work ethic 직장윤리(근무윤리)
+811 □ unique 독특한, 유일무이한
+812 □ ignore 무시, 묵살하다
+813 □ oil refinery 정유공장
+814 □ trade restriction 무역제한(조치)
+815 □ audio-visual equipment 시청각장비
+816 □ indicate 지적하다, 가리키다
+817 □ ID (tag) 신분증 표찰
+818 □ box office 매표소
+819 □ reservations are hold 예약 유효하다
+820 □ validation 인가, 허가(=authorization)
+821 □ show goer 극장 관객
+822 □ register 등록하다
+823 □ registered no. 등록 번호
+824 □ handling charge (주로)택배처리비용
+825 □ postage 우편 비용
+826 □ special delivery 특송
+827 □ legibly ↔illegibly 읽을수있게
+828 □ declare full value 총액 명기하다
+829 □ substitute(=replacement) 대체물(자)
+830 □ recipient 수령인
+831 □ official warning 공식적 경고
+832 □ reasonable cause 타당한 사유
+833 □ complaint 불평, 항의
+834 □ as stated in～ ～에 명기된 대로
+835 □ violation (법) 위반
+836 □ terms (계약) 조항
+837 □ void(=invalid) 무효의
+838 □ landlord (셋집) 주인
+839 □ heed 주의하다
+840 □ pay attention to 주의하다
+841 □ attend to 주의하다
+842 □ evict 퇴거시키다
+843 □ approximately(=about) 대략
+844 □ FYI(For Your Information)추신
+845 □ middle manager 중간 관리자
+846 □ table 표(=scales)
+847 □ tabulate 일람표를 만들다
+848 □ get message across 메시지를 전달하다
+849 □ tap into market 시장에 진입하다
+850 □ power plant 발전소
+851 □ power line 송전선
+852 □ utility vacuum 설비 부재
+853 □ for instance 예를 들어(연결어)
+854 □ for example     "
+855 □ for one thing    "
+856 □ above all 무엇보다도, 예를들어
+857 □ to begin with       "
+858 □ working capital 운전자금, 가용자금
+859 □ check the balance 잔고 확인
+860 □ streamline 유선화, 간략화하다
+861 □ downtown  시내↔
+       uptown  주택지
+862 □ suburban area(=suburbs) 교외
