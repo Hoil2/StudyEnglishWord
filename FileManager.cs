@@ -13,16 +13,34 @@ namespace StudyEnglishWord
     public class WordData
     {
         public string word;
-        public List<string> date;
+        public string date = "";
         public int cnt;
+
+        public WordData()
+        {
+            word = "";
+            date = "";
+            cnt = 0;
+        }
     }
 
     public class FileMng
     {
-        public static List<WordData> wordDatas;
+        public static WordData[] wordDatas = new WordData[4672];
+
+        
         public static List<string> words = new List<string>();
         public static string dataPath = @"data.dat";
-        public static string wordsPath = @"words.txt";
+        public static string wordsPath = @"7000words.txt";
+
+        public static void Init()
+        {
+            for (int i = 0; i < wordDatas.Length; i++) 
+            {
+                wordDatas[i] = new WordData();
+            }
+        }
+
         public static void LoadData()
         {
             FileInfo fileInfo = new FileInfo(dataPath);
@@ -33,7 +51,7 @@ namespace StudyEnglishWord
                     BinaryFormatter binary = new BinaryFormatter();
                     try
                     {
-                        wordDatas = (List<WordData>)binary.Deserialize(fs);
+                        wordDatas = (WordData[])binary.Deserialize(fs);
                     }
                     catch(Exception ex) 
                     {
@@ -81,7 +99,6 @@ namespace StudyEnglishWord
                     }
                 }
             }
-            
         }
 
         //-----------------------------------------

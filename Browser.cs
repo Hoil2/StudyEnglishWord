@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace StudyEnglishWord
 {
-    public partial class Form1 : Form
+    public partial class frmBrowser : Form
     {
-        public Form1()
+        public frmBrowser()
         {
             InitializeComponent();
-            FileMng.LoadWords();
-            FileMng.LoadData();
-
-            //foreach (var item in FileMng.words)
-            //{
-            //    listBox1.Items.Add(item);
-            //}
-            
         }
     }
 }
