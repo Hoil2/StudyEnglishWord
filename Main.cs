@@ -31,14 +31,11 @@ namespace StudyEnglishWord
             
             MaximizeBox = false;
 
-            FileMng.LoadData(); 
+            frmCheckWords frmCheckWords = new frmCheckWords();
+            frmCheckWords.Show();
 
-            frmStudy frmStudy = new frmStudy();
-            frmStudy.MdiParent = this;
-            frmStudy.WindowState = FormWindowState.Maximized;
-            frmStudy.Show();
-
-            MessageBox.Show(FileMng.wordDatas[0].word);
+            this.Hide();
+            //MessageBox.Show(FileMng.wordDatas[0].word);
             //foreach (var item in FileMng.words)
             //{
             //    listBox1.Items.Add(item);

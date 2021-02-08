@@ -16,7 +16,9 @@ namespace StudyEnglishWord
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMain());
+            Application.Run(new frmCheckWords());
+
+            FileMng.LoadData(); // 데이터 로드
         }
     }
 }

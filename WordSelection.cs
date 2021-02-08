@@ -8,9 +8,11 @@ namespace StudyEnglishWord
 {
     class WordSelection
     {
-        public void SelectWord()
+        public void SelectStudyWord()
         {
             //FileMng.wordDatas
         }
+
+        public void 
     }
 }
