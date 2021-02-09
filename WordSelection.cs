@@ -8,11 +8,48 @@ namespace StudyEnglishWord
 {
     class WordSelection
     {
-        public void SelectStudyWord()
+        public static List<int> SelectStudyWords()
         {
-            //FileMng.wordDatas
+            List<int> _indexList = new List<int>();
+            List<int> indexList = new List<int>();
+            for (int i = 0; i < FileMng.wordDatas.Length; i++)
+            {
+                if(FileMng.wordDatas[i].cnt == 0)
+                {
+                    _indexList.Add(i);
+                }
+            }
+            
+            if(_indexList.Count > 5)
+            {
+                for (int i = 0; i < 5; i++)
+                {
+                    int idx = new Random().Next(0, _indexList.Count);
+                    if(indexList.Exists(x => x.Equals(idx)))
+                    {
+                        i--;
+                        continue;
+                    }
+                    indexList.Add(idx);
+                }
+            }
+
+            return indexList;
         }
 
-        public void 
+        public static List<int> SelectReviewWords()
+        {
+            List<int> indexList = new List<int>();
+            for (int i = 0; i < FileMng.wordDatas.Length; i++)
+            {
+                if (FileMng.wordDatas[i].date == null) continue;
+                if (FileMng.wordDatas[i].date >= DateTime.Now)
+                {
+                    indexList.Add(i);
+                }
+            }
+
+            return indexList;
+        }
     }
 }

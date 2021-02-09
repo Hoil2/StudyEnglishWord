@@ -22,9 +22,10 @@ namespace StudyEnglishWord
             lblQuestion = new List<Label>();
             txtAnswer = new List<TextBox>();
 
-            AddMeaningQuizSlot(FileMng.wordDatas[0].word);
-            AddMeaningQuizSlot(FileMng.wordDatas[1].word);
-            AddMeaningQuizSlot(FileMng.wordDatas[2].word);
+            List<int> indexList = WordSelection.SelectStudyWords();
+
+            foreach (var i in indexList)
+                AddMeaningQuizSlot(FileMng.wordDatas[i].word);
         }
         
         /// <summary>
@@ -34,8 +35,9 @@ namespace StudyEnglishWord
         {
             // 단어
             Label question = new Label();
-            question.Text = que;
+            question.Text = (lblQuestion.Count + 1) + ". " + que;
             question.Font = new Font(Font.FontFamily, fontSize);
+            question.Size = new Size(300, 23);
             question.Location = new Point(60, 60 + lblQuestion.Count * 80);
 
             // 정답칸
@@ -49,6 +51,11 @@ namespace StudyEnglishWord
 
             Controls.Add(question);
             Controls.Add(answer);
+        }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -13,13 +13,12 @@ namespace StudyEnglishWord
     public class WordData
     {
         public string word;
-        public string date = "";
+        public DateTime date;
         public int cnt;
-
+        public List<string> answer;
         public WordData()
         {
             word = "";
-            date = "";
             cnt = 0;
         }
     }
@@ -33,7 +32,7 @@ namespace StudyEnglishWord
         public static string dataPath = @"data.dat";
         public static string wordsPath = @"7000words.txt";
 
-        public static void Init()
+        static void Init()
         {
             for (int i = 0; i < wordDatas.Length; i++) 
             {
@@ -100,6 +99,19 @@ namespace StudyEnglishWord
                 }
             }
         }
+
+        public static void LoadWordToData()
+        {
+            Init();
+            LoadWords(); // 4672단어
+            for (int i = 0; i < wordDatas.Length; i++)
+            {
+                wordDatas[i].word = words[i];
+            }
+            SaveData();
+            MessageBox.Show("로드 & 세이브 성공");
+        }
+
 
         //-----------------------------------------
 

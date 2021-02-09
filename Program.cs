@@ -14,11 +14,13 @@ namespace StudyEnglishWord
         [STAThread]
         static void Main()
         {
+            //FileMng.LoadWordToData();
+            FileMng.LoadData(); // 데이터 로드
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmCheckWords());
 
-            FileMng.LoadData(); // 데이터 로드
         }
     }
 }

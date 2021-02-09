@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnswerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnswerList.Designer.cs">
+      <DependentUpon>AnswerList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Browser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
       <DependentUpon>Study.cs</DependentUpon>
     </Compile>
     <Compile Include="WordSelection.cs" />
+    <EmbeddedResource Include="AnswerList.resx">
+      <DependentUpon>AnswerList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Browser.resx">
       <DependentUpon>Browser.cs</DependentUpon>
     </EmbeddedResource>

@@ -14,16 +14,7 @@ namespace StudyEnglishWord
     {
         // 컴파일러 환경에서 실행
         // 영어 문장 가져오는 용
-        void LoadWordToData()
-        {
-            FileMng.Init();
-            FileMng.LoadWords(); // 4672단어
-            for (int i = 0; i < FileMng.wordDatas.Length; i++)
-            {
-                FileMng.wordDatas[i].word = FileMng.words[i];
-            }
-            FileMng.SaveData();
-        }
+        
 
         public frmMain()
         {
