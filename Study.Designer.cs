@@ -29,19 +29,7 @@ namespace StudyEnglishWord
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSubmit = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnSubmit
-            // 
-            this.btnSubmit.Font = new System.Drawing.Font("굴림", 12F);
-            this.btnSubmit.Location = new System.Drawing.Point(63, 462);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(91, 40);
-            this.btnSubmit.TabIndex = 0;
-            this.btnSubmit.Text = "제출";
-            this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // frmStudy
             // 
@@ -49,18 +37,18 @@ namespace StudyEnglishWord
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(362, 535);
+            this.ClientSize = new System.Drawing.Size(350, 535);
             this.ControlBox = false;
-            this.Controls.Add(this.btnSubmit);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmStudy";
             this.ShowIcon = false;
-            this.Text = "Study";
+            this.ShowInTaskbar = false;
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnSubmit;
     }
 }

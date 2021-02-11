@@ -17,11 +17,22 @@ namespace StudyEnglishWord
 
         List<Label> lblWordList = new List<Label>();
         List<TextBox> txtAnswerList = new List<TextBox>();
+
+        List<int> indexList;
         public frmCheckWords()
         {
             InitializeComponent();
 
-            List<int> indexList = WordSelection.SelectStudyWords();
+            indexList = WordSelection.SelectStudyWords();
+
+            if(indexList.Count == 0)
+            {
+                frmStudy = new frmStudy();
+                frmStudy.MdiParent = MdiParent;
+                frmStudy.Dock = DockStyle.Fill;
+                frmStudy.Show();
+                Close();
+            }
 
             foreach(var i in indexList)
                 AddWordSlot(i);
@@ -48,21 +59,13 @@ namespace StudyEnglishWord
             btnAnswerList.Location = new Point(26, 130 + lblWordList.Count * 63);
             btnAnswerList.Click += new EventHandler(delegate
             {
-                //frmAnswerList frmAnswerList = new frmAnswerList(index);
-                //frmAnswerList.Show();
+                frmAnswerList frmAnswerList = new frmAnswerList(index);
+                frmAnswerList.Show();
             });
 
             lblWordList.Add(lblWord);
             Controls.Add(lblWord);
             Controls.Add(btnAnswerList);
-        }
-
-        private void KeyEvent(object sender, KeyEventArgs e)
-        {
-            if(e.KeyCode.Equals(Keys.Enter))
-            {
-                
-            }
         }
 
         private void btnDictSearch_Click(object sender, EventArgs e)
@@ -80,9 +83,27 @@ namespace StudyEnglishWord
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            foreach (var i in indexList)
+            {
+                if (FileMng.wordDatas[i].answer.Count == 0)
+                {
+                    MessageBox.Show(FileMng.wordDatas[i].word + "의 정답을 입력해주세요");
+                    return;
+                }
+            }
+
+            foreach (var i in indexList)
+            {
+                FileMng.wordDatas[i].cnt++;
+                FileMng.wordDatas[i].date = DateTime.Now.AddHours(1);
+                MessageBox.Show(FileMng.wordDatas[i].date.ToString("yyyy-MM-dd-HH"));
+            }
+
             frmStudy = new frmStudy();
+            frmStudy.MdiParent = MdiParent;
+            frmStudy.Dock = DockStyle.Fill;
             frmStudy.Show();
-            //Close();
+            Close();
         }
     }
 }

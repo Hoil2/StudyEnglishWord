@@ -19,7 +19,7 @@ namespace StudyEnglishWord
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCheckWords());
+            Application.Run(new frmMain());
 
         }
     }

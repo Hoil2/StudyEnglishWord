@@ -29,85 +29,97 @@ namespace StudyEnglishWord
         /// </summary>
         private void InitializeComponent()
         {
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnOK = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnRemove = new System.Windows.Forms.Button();
+            this.lstAnswer = new System.Windows.Forms.ListBox();
+            this.txtInput = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // tableLayoutPanel1
+            // btnOK
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(305, 359);
-            this.tableLayoutPanel1.TabIndex = 0;
+            this.btnOK.Location = new System.Drawing.Point(112, 378);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(50, 31);
+            this.btnOK.TabIndex = 1;
+            this.btnOK.Text = "확인";
+            this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
-            // button1
+            // btnCancel
             // 
-            this.button1.Location = new System.Drawing.Point(139, 393);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(50, 31);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "확인";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(168, 378);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(50, 31);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "취소";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // button2
+            // btnAdd
             // 
-            this.button2.Location = new System.Drawing.Point(195, 393);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(50, 31);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "취소";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnAdd.Location = new System.Drawing.Point(140, 8);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(49, 28);
+            this.btnAdd.TabIndex = 3;
+            this.btnAdd.Text = "추가";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // button3
+            // btnRemove
             // 
-            this.button3.Location = new System.Drawing.Point(323, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(49, 28);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "추가";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnRemove.Location = new System.Drawing.Point(196, 8);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(49, 27);
+            this.btnRemove.TabIndex = 4;
+            this.btnRemove.Text = "삭제";
+            this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
-            // button4
+            // lstAnswer
             // 
-            this.button4.Location = new System.Drawing.Point(323, 46);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(49, 27);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "삭제";
-            this.button4.UseVisualStyleBackColor = true;
+            this.lstAnswer.Font = new System.Drawing.Font("굴림", 11F);
+            this.lstAnswer.FormattingEnabled = true;
+            this.lstAnswer.ItemHeight = 15;
+            this.lstAnswer.Location = new System.Drawing.Point(13, 43);
+            this.lstAnswer.Name = "lstAnswer";
+            this.lstAnswer.Size = new System.Drawing.Size(304, 319);
+            this.lstAnswer.TabIndex = 5;
+            // 
+            // txtInput
+            // 
+            this.txtInput.Location = new System.Drawing.Point(13, 12);
+            this.txtInput.Name = "txtInput";
+            this.txtInput.Size = new System.Drawing.Size(116, 21);
+            this.txtInput.TabIndex = 6;
             // 
             // frmAnswerList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 450);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.ClientSize = new System.Drawing.Size(329, 426);
+            this.Controls.Add(this.txtInput);
+            this.Controls.Add(this.lstAnswer);
+            this.Controls.Add(this.btnRemove);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnOK);
             this.Name = "frmAnswerList";
             this.Text = "AnswerList";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmAnswerList_FormClosing);
+            this.Load += new System.EventHandler(this.frmAnswerList_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnOK;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnRemove;
+        private System.Windows.Forms.ListBox lstAnswer;
+        private System.Windows.Forms.TextBox txtInput;
     }
 }

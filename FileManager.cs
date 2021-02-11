@@ -18,6 +18,7 @@ namespace StudyEnglishWord
         public List<string> answer;
         public WordData()
         {
+            answer = new List<string>();
             word = "";
             cnt = 0;
         }
@@ -26,7 +27,7 @@ namespace StudyEnglishWord
     public class FileMng
     {
         public static WordData[] wordDatas = new WordData[4672];
-
+        
         
         public static List<string> words = new List<string>();
         public static string dataPath = @"data.dat";
