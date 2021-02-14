@@ -66,5 +66,13 @@ namespace StudyEnglishWord
         {
             FileMng.wordDatas[index].answer = tempAnswerList;
         }
+
+        private void txtInput_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                btnAdd_Click(sender, e);
+            }
+        }
     }
 }

@@ -12,7 +12,7 @@ namespace StudyEnglishWord
         {
             List<int> _indexList = new List<int>();
             List<int> indexList = new List<int>();
-            for (int i = 0; i < FileMng.wordDatas.Length; i++)
+            for (int i = 0; i < FileMng.wordDatas.Count; i++)
             {
                 if(FileMng.wordDatas[i].cnt == 0)
                 {
@@ -40,10 +40,10 @@ namespace StudyEnglishWord
         public static List<int> SelectReviewWords()
         {
             List<int> indexList = new List<int>();
-            for (int i = 0; i < FileMng.wordDatas.Length; i++)
+            for (int i = 0; i < FileMng.wordDatas.Count; i++)
             {
-                if (FileMng.wordDatas[i].date == null) continue;
-                if (FileMng.wordDatas[i].date >= DateTime.Now)
+                if (FileMng.wordDatas[i].date == DateTime.MinValue) continue;
+                if (DateTime.Now >= FileMng.wordDatas[i].date)
                 {
                     indexList.Add(i);
                 }

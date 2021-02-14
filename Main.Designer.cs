@@ -30,7 +30,9 @@ namespace StudyEnglishWord
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.notify = new System.Windows.Forms.NotifyIcon(this.components);
             this.SuspendLayout();
             // 
             // timer1
@@ -39,6 +41,12 @@ namespace StudyEnglishWord
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // notify
+            // 
+            this.notify.Icon = ((System.Drawing.Icon)(resources.GetObject("notify.Icon")));
+            this.notify.Text = "Study English Words";
+            this.notify.Visible = true;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -46,6 +54,7 @@ namespace StudyEnglishWord
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(364, 536);
             this.ControlBox = false;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -54,6 +63,7 @@ namespace StudyEnglishWord
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.Load += new System.EventHandler(this.frmMain_Load);
+            this.Resize += new System.EventHandler(this.frmMain_Resize);
             this.ResumeLayout(false);
 
         }
@@ -61,6 +71,7 @@ namespace StudyEnglishWord
         #endregion
 
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.NotifyIcon notify;
     }
 }
 

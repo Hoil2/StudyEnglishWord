@@ -26,20 +26,20 @@ namespace StudyEnglishWord
 
     public class FileMng
     {
-        public static WordData[] wordDatas = new WordData[4672];
+        public static List<WordData> wordDatas = new List<WordData>();
         
         
         public static List<string> words = new List<string>();
         public static string dataPath = @"data.dat";
-        public static string wordsPath = @"7000words.txt";
+        public static string wordsPath = @"words.txt";
 
-        static void Init()
-        {
-            for (int i = 0; i < wordDatas.Length; i++) 
-            {
-                wordDatas[i] = new WordData();
-            }
-        }
+        //static void Init()
+        //{
+        //    for (int i = 0; i < wordDatas.Length; i++) 
+        //    {
+        //        wordDatas[i] = new WordData();
+        //    }
+        //}
 
         public static void LoadData()
         {
@@ -51,7 +51,7 @@ namespace StudyEnglishWord
                     BinaryFormatter binary = new BinaryFormatter();
                     try
                     {
-                        wordDatas = (WordData[])binary.Deserialize(fs);
+                        wordDatas = (List<WordData>)binary.Deserialize(fs);
                     }
                     catch(Exception ex) 
                     {
@@ -103,10 +103,11 @@ namespace StudyEnglishWord
 
         public static void LoadWordToData()
         {
-            Init();
+            //Init();
             LoadWords(); // 4672단어
-            for (int i = 0; i < wordDatas.Length; i++)
+            for (int i = 0; i < words.Count; i++)
             {
+                wordDatas.Add(new WordData());
                 wordDatas[i].word = words[i];
             }
             SaveData();

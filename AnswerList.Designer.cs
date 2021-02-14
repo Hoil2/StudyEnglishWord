@@ -93,11 +93,13 @@ namespace StudyEnglishWord
             this.txtInput.Name = "txtInput";
             this.txtInput.Size = new System.Drawing.Size(116, 21);
             this.txtInput.TabIndex = 6;
+            this.txtInput.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtInput_KeyDown);
             // 
             // frmAnswerList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(329, 426);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.lstAnswer);
@@ -107,6 +109,7 @@ namespace StudyEnglishWord
             this.Controls.Add(this.btnOK);
             this.Name = "frmAnswerList";
             this.Text = "AnswerList";
+            this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmAnswerList_FormClosing);
             this.Load += new System.EventHandler(this.frmAnswerList_Load);
             this.ResumeLayout(false);

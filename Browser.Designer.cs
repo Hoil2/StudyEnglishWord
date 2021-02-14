@@ -38,6 +38,7 @@ namespace StudyEnglishWord
             this.webBrowser.Location = new System.Drawing.Point(0, 0);
             this.webBrowser.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser.Name = "webBrowser";
+            this.webBrowser.ScriptErrorsSuppressed = true;
             this.webBrowser.Size = new System.Drawing.Size(784, 561);
             this.webBrowser.TabIndex = 0;
             this.webBrowser.Url = new System.Uri("https://en.dict.naver.com/#/main", System.UriKind.Absolute);
@@ -49,6 +50,7 @@ namespace StudyEnglishWord
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.webBrowser);
             this.Name = "frmBrowser";
+            this.TopMost = true;
             this.ResumeLayout(false);
 
         }
