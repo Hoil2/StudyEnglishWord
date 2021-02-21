@@ -1,0 +1,1 @@
+studyWordNum=2

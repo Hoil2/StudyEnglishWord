@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace StudyEnglishWord
 {
     class WordSelection
     {
+        public static int studyWordNum;
         public static List<int> SelectStudyWords()
         {
             List<int> _indexList = new List<int>();
@@ -20,9 +22,9 @@ namespace StudyEnglishWord
                 }
             }
             
-            if(_indexList.Count > 5)
+            if(_indexList.Count > studyWordNum)
             {
-                for (int i = 0; i < 5; i++)
+                for (int i = 0; i < studyWordNum; i++)
                 {
                     int idx = new Random().Next(0, _indexList.Count);
                     if(indexList.Exists(x => x.Equals(idx)))

@@ -43,6 +43,26 @@ namespace StudyEnglishWord
 
         public static void LoadData()
         {
+            // 파일 구성 없으면 생성
+            if (!File.Exists(@"config.txt"))
+            {
+                using (StreamWriter streamWriter = new StreamWriter(@"config.txt"))
+                {
+                    streamWriter.WriteLine("studyWordNum=" + 2);
+                }
+            }
+            string[] studywordNum = File.ReadAllLines(@"config.txt");
+                
+            foreach(var item in studywordNum)
+            {
+                if(item.Contains("studyWordNum"))
+                {
+                    int index = item.IndexOf('=');
+                    WordSelection.studyWordNum = int.Parse(item.Substring(index+1));
+                }
+            }
+            
+            // 학습 데이터 불러오기
             FileInfo fileInfo = new FileInfo(dataPath);
             if (fileInfo.Exists)
             {
@@ -105,6 +125,9 @@ namespace StudyEnglishWord
         {
             //Init();
             LoadWords(); // 4672단어
+
+            words = words.Distinct().ToList(); // 중복 제거
+
             for (int i = 0; i < words.Count; i++)
             {
                 wordDatas.Add(new WordData());
