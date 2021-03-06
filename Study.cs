@@ -83,13 +83,16 @@ namespace StudyEnglishWord
             bool activeCancel = true;
             for(int i = 0; i < indexList.Count; i++)
             {
-                if (FileMng.wordDatas[indexList[i]].answer.Exists(x => x.Equals(txtAnswer[i].Text)))
+                // 띄어쓰기 없이 판단
+                if (FileMng.wordDatas[indexList[i]].answer.Exists(x => x.Replace(" ", "").Equals(txtAnswer[i].Text.Replace(" ", ""))))
                 {
                     lblAnswerShow[i].Text = "○";
                     lblAnswerShow[i].ForeColor = Color.Black;
                 }
                 else
                 {
+                    FileMng.wordDatas[indexList[i]].cnt = 1;
+                    FileMng.wordDatas[indexList[i]].date = AddDate(1);
                     lblAnswerShow[i].Text = "×";
                     lblAnswerShow[i].ForeColor = Color.Red;
                     activeCancel = false;

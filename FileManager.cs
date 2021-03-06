@@ -98,7 +98,7 @@ namespace StudyEnglishWord
             int isEnglishWord = 0;
             for (int i = 0; i < wordList.Length; i++)
             {
-                if (wordList[i] >= 'a' && wordList[i] <= 'z' || (wordList[i] == ' ' && word.Length != 0))
+                if (wordList[i] == '-' || wordList[i] >= 'a' && wordList[i] <= 'z' || (wordList[i] == ' ' && word.Length != 0))
                 {
                     if(EndSpaceCount(word) >= 2) // 공백이 2개 이상일 때 추가
                     {
